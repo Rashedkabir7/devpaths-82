@@ -1,0 +1,32 @@
+{
+  "name": "devpaths-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "cookie-session": "^2.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-session": "^1.18.2",
+    "mongoose": "^7.8.7",
+    "passport": "^0.7.0",
+    "passport-discord": "^0.1.4",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-twitter": "^0.1.5",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
